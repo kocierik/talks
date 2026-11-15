@@ -1,0 +1,18 @@
+.slidev-layout {
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a0a2e 25%, #0d1b2a 50%, #1a0a2e 75%, #0a0a1a 100%) !important;
+  background-size: 200% 200% !important;
+  position: relative;
+}
+
+.slidev-layout::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(ellipse at 20% 80%, rgba(99, 50, 150, 0.15) 0%, transparent 50%),
+              radial-gradient(ellipse at 80% 20%, rgba(30, 80, 140, 0.12) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}

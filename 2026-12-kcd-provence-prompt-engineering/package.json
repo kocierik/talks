@@ -1,0 +1,19 @@
+{
+  "name": "prompt-engineering-kcd-provence-2026",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides-10min.md",
+    "dev:30": "slidev slides-30min.md",
+    "dev:10": "slidev slides-10min.md",
+    "build:30": "slidev build slides-30min.md --out dist-30min",
+    "build:10": "slidev build slides-10min.md --out dist-10min",
+    "export:30": "slidev export slides-30min.md --output slides-30min-export.pdf",
+    "export:10": "slidev export slides-10min.md --output slides-10min-export.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.2",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0"
+  }
+}
