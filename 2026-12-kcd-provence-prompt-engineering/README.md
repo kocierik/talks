@@ -6,9 +6,11 @@ An AI answer can sound convincing and still be wrong. This talk shows how to mak
 LLM output testable: clear task contracts, context and state, reusable skills,
 the agent harness, and evals, with examples from cloud-native work.
 
-- **Slides:** [slides.md](slides.md) (full) · [slides-30min.md](slides-30min.md) · [slides-10min-v2.md](slides-10min-v2.md)
+[![Slides cover](cover.png)](slides-30min-export.pdf)
+
+- **Slides (30 min):** [PDF](slides-30min-export.pdf) · source [slides-30min.md](slides-30min.md)
+- **Slides (10 min):** [PDF](slides-10min-export.pdf) · source [slides-10min.md](slides-10min.md)
 - **Speaker notes and outlines:** [notes/](notes/)
-- **Sources:** [research/prompt-engineering-sources.md](research/prompt-engineering-sources.md)
 
 ## Demo
 
@@ -23,9 +25,10 @@ the agent harness, and evals, with examples from cloud-native work.
 
 ```bash
 npm install
-npm run dev       # full talk
-npm run dev:30    # 30-minute version
-npm run dev:10    # 10-minute version
+npm run dev:30      # 30-minute version
+npm run dev:10      # 10-minute version
+npm run export:30   # regenerate slides-30min-export.pdf
+npm run export:10   # regenerate slides-10min-export.pdf
 ```
 
 Slides use a fixed 16:9 canvas. When changing layouts, check that content stays

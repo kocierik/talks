@@ -1,8 +1,7 @@
-# Slide Outline — 10-minute version (v2)
+# Slide Outline — 10-minute version
 
-Deck: [`slides-10min-v2.md`](../slides-10min-v2.md). This is a new condensed
-version inspired by the 30-minute talk; the existing [`slides.md`](../slides.md)
-is unchanged. The skill segment uses prepared examples rather than a live
+Deck: [`slides-10min.md`](../slides-10min.md). A condensed
+version of the 30-minute talk. The skill segment uses prepared examples rather than a live
 installation. The Prompt Optimizer screenshot is pending; its slide still
 contains the live-demo cue. Keep the resources slide visible after the talk;
 it is not narrated.

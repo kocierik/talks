@@ -6,8 +6,10 @@ How an MCP server written in Go lets an AI assistant inspect and operate a
 HashiCorp Nomad cluster in natural language: jobs, allocations, logs and more.
 The live demo runs against a small Nomad + Consul homelab connected with Tailscale.
 
-- **Slides:** [slides-export.pdf](slides-export.pdf) · source [slides.md](slides.md)
-- **Speaker notes:** [speaker-notes.md](speaker-notes.md)
+[![Slides cover](cover.png)](slides-export.pdf)
+
+- **Slides:** [PDF](slides-export.pdf) · source [slides.md](slides.md)
+- **Video:** [WeAreDevelopers](https://www.wearedevelopers.com/videos/2063-bridging-ai-and-nomad-a-go-based-mcp-server-for-cluster-control)
 - **Project:** [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad)
 
 ## Demo
@@ -22,5 +24,6 @@ The live demo runs against a small Nomad + Consul homelab connected with Tailsca
 
 ```bash
 npm install
-npm run dev
+npm run dev      # presenter mode
+npm run export   # regenerate slides-export.pdf
 ```
