@@ -14,9 +14,9 @@ transition: slide-left
 ---
 
 <div class="kcd-cover">
-  <img class="kcd-cover-art" src="/kcd-cover-bg.png" alt="Kubernetes Community Days Provence cover artwork." />
-  <div class="kcd-cover-title kcd-cover-title-main">Prompt Engineering</div>
-  <div class="kcd-cover-title kcd-cover-title-sub">for Developers</div>
+  <img class="kcd-cover-art" src="/public/kcd-cover-bg.png" alt="Kubernetes Community Days Provence cover artwork." />
+  <div class="kcd-cover-title kcd-cover-title-main">From Prompts to Harnesses:</div>
+  <div class="kcd-cover-title kcd-cover-title-sub">Engineering Reliable AI Agents</div>
   <div class="kcd-cover-title-tagline">How to Get Reliable Results from LLMs</div>
   <div class="kcd-cover-speaker">Erik Koci</div>
   <div class="kcd-cover-role">DevOps Engineer</div>
@@ -140,7 +140,6 @@ Prompt engineering did not disappear.<br>
 </div>
 
 <div class="footer-note"><span>BUILD THE CONTRACT, THEN RUN IT</span><span><a class="skill-link" href="https://platform.openai.com/chat/edit?optimize=true" target="_blank" rel="noopener noreferrer">OPENAI PROMPT OPTIMIZER</a></span><span>1 · PROMPT</span></div>
-
 ---
 
 <div class="eyebrow">2 / CONTEXT · WHAT THE MODEL SEES</div>
@@ -198,10 +197,11 @@ Prompt engineering did not disappear.<br>
 </div>
 
 <div class="panel panel-teal" style="margin-top:1.2rem;min-height:0">
-  <p style="font-size:1.1rem;color:var(--ink);margin:0">Every token competes for attention. <b>Load evidence just in time</b>, through tools, instead of pasting everything up front.</p>
+  <p style="font-size:1.1rem;color:var(--ink);margin:0">Every token competes for attention. <b>Load evidence just in time</b>, through tools. <br>
+  <a class="skill-link" href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">RTK</a> compresses CLI output before it reaches the model.</p>
 </div>
 
-<div class="footer-note"><span>CONTEXT IS A RESOURCE, NOT A DUMPING GROUND</span><span>2 · CONTEXT</span></div>
+<div class="footer-note"><span>CONTEXT IS A RESOURCE, NOT A DUMPING GROUND</span><a class="skill-link" href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">https://github.com/rtk-ai/rtk</a> <span>2 · CONTEXT</span></div>
 ---
 
 <div class="eyebrow">2 / CONTEXT · ACROSS SESSIONS</div>
@@ -549,6 +549,7 @@ Don't stop at better prompts.<br>
   <div><p class="small" style="margin:0">2 / CONTEXT · CLAUDE-MEM · MEMORY ACROSS SESSIONS</p><a class="skill-link resource-url" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">https://github.com/thedotmack/claude-mem</a></div>
   <div><p class="small" style="margin:0">2 / CONTEXT · BEADS · TASK GRAPH FOR AGENTS</p><a class="skill-link resource-url" href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">https://github.com/gastownhall/beads</a></div>
   <div><p class="small" style="margin:0">2 / CONTEXT · GITHUB SPEC KIT · SPEC-DRIVEN DEVELOPMENT</p><a class="skill-link resource-url" href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer">https://github.com/github/spec-kit</a></div>
+  <div><p class="small" style="margin:0">2 / CONTEXT · RTK · TOKEN COMPRESSION CLI · 60–90% REDUCTION</p><a class="skill-link resource-url" href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">https://github.com/rtk-ai/rtk</a></div>
   <div><p class="small" style="margin:0">4 / AGENTS · RALPH · OUTER LOOP · 22.1K★</p><a class="skill-link resource-url" href="https://github.com/snarktank/ralph" target="_blank" rel="noopener noreferrer">https://github.com/snarktank/ralph</a></div>
 </div>
 

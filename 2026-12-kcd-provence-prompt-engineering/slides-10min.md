@@ -132,7 +132,8 @@ Prompt engineering did not disappear.<br>
 </div>
 
 <div class="panel panel-coral" style="margin-top:.75rem;padding:.65rem .9rem;min-height:0">
-  <p style="color:var(--ink);margin:0"><b>Keep state outside the model.</b> Load relevant evidence just in time; save decisions and next steps for the next session.</p>
+  <p style="color:var(--ink);margin:0"><b>Keep state outside the model.</b> Load relevant evidence just in time; save decisions and next steps for the next session.<br>
+  RTK tool compresses CLI output before it reaches the model.</p>
 </div>
 
 <div class="footer-note"><span>RELEVANT CONTEXT, NOT A DUMP</span><span>2 · CONTEXT</span></div>
@@ -256,6 +257,7 @@ Don't stop at better prompts.<br>
   <div><p class="small" style="margin:0">CONTEXT · BEADS</p><a class="skill-link resource-url" href="https://github.com/gastownhall/beads" target="_blank" rel="noopener noreferrer">github.com/gastownhall/beads</a></div>
   <div><p class="small" style="margin:0">CONTEXT · CLAUDE-MEM</p><a class="skill-link resource-url" href="https://github.com/thedotmack/claude-mem" target="_blank" rel="noopener noreferrer">github.com/thedotmack/claude-mem</a></div>
   <div><p class="small" style="margin:0">CONTEXT · GITHUB SPEC KIT</p><a class="skill-link resource-url" href="https://github.com/github/spec-kit" target="_blank" rel="noopener noreferrer">github.com/github/spec-kit</a></div>
+  <div><p class="small" style="margin:0">CONTEXT · RTK · TOKEN COMPRESSION CLI</p><a class="skill-link resource-url" href="https://github.com/rtk-ai/rtk" target="_blank" rel="noopener noreferrer">github.com/rtk-ai/rtk</a></div>
 </div>
 
 <div class="footer-note"><span>TOOLS AND OPEN-SOURCE SKILLS</span><span>UNSPOKEN RECAP</span></div>
